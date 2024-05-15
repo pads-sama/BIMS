@@ -9,11 +9,11 @@ include_once(SHARED_PATH . '/admin_header.php');
 
 <div class="container p-9">
     <form>
-        <?php include('resident_fields.php') ?>
+        <?php include('request_fields.php') ?>
         <div class="gap-2 mt-8 flex flex-col jusitify-center items-center md:flex-row">
             <input type="submit" value="Save" />
             <!-- Secondary -->
-            <a href="<?php echo url_for('/admin/residents/index.php'); ?>" class="cancel-button">Cancel</a>
+            <a href="<?php echo url_for('/admin/document_requests/index.php'); ?>" class="cancel-button">Cancel</a>
         </div>
     </form>
 </div>

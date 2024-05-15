@@ -44,4 +44,10 @@
          <label for="address" class="text-md text-gray-700 block mb-1 font-medium">Address: <span class="text-red-500">*</span></label>
          <textarea type="text" name="address" id="address" class="w-full" placeholder="Enter your address"></textarea>
      </div>
+     <div>
+         <label for="address" class="text-md text-gray-700 block mb-1 font-medium">Picture:</label>
+         <input class="w-full" aria-describedby="file_input_help" id="file_input" type="file">
+         <p class="mt-1 text-sm text-gray-500 dark:text-gray-300" id="file_input_help">SVG, PNG, JPG (MAX. 800x400px).</p>
+
+     </div>
  </fieldset>

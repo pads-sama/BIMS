@@ -1,8 +1,10 @@
 </main>
 </div>
-
 <!-- jQuery -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- flowbite -->
+<script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
 
 <!--Datatables -->
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
@@ -18,6 +20,7 @@
     });
 </script>
 <script src="<?php echo url_for('/assets/js/main.js') ?>"></script>
+<script src="<?php echo url_for('/assets/js/modal.js') ?>"></script>
 </body>
 
 </html>

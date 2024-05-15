@@ -35,9 +35,10 @@ include_once(SHARED_PATH . '/admin_header.php');
                     <td>61</td>
                     <td>2011/04/25</td>
                     <td>
-                        <button class="modal-open view">View</button>
-                        <a href="" class="edit">Edit</a>
-                        <a href="" class="delete">Delete</a>
+                        <button type="button" class="modal-open view">View</button>
+                        <button class="modal-open edit">Edit</button>
+                        <button class="modal-open delete">Delete</button>
+
                     </td>
                 </tr>
             </tbody>
@@ -51,6 +52,7 @@ include_once(SHARED_PATH . '/admin_header.php');
 
 </div>
 <!--/container-->
+<!-- component -->
 
 <?php
 include_once(SHARED_PATH . '/admin_footer.php');
